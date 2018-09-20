@@ -1,5 +1,0 @@
-package ihm.ci.test.cloud.microservices.netflixzuulapigatewayserver;
-
-public class ZuulLoggingFilter {
-
-}

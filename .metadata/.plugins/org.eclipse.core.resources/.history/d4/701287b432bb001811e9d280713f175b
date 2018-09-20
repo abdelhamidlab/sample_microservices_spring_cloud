@@ -1,4 +1,0 @@
-service-one.max=121
-service-one.min=12
-eureka.client.server-url.default-zone=http://localhost:8761/eureka/
-management.endpoints.web.exposure.include=*
