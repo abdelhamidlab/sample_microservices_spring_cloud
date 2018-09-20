@@ -1,0 +1,5 @@
+package ihm.ci.test.cloud.microservices.currencycalculservice.controller;
+
+public class ExchangeCalculController {
+
+}

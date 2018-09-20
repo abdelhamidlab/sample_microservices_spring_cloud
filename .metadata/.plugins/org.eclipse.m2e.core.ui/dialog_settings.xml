@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\IBM_ADMIN\Documents\___IBM\_Workspaces\eclipse-workspace-ihm_ci\netflix-zuul-api-gateway-server"/>
+			<item value="C:\Users\IBM_ADMIN\Documents\___IBM\_Workspaces\eclipse-workspace-ihm_ci\currency-exchange-service"/>
+			<item value="C:\Users\IBM_ADMIN\Documents\___IBM\_Workspaces\eclipse-workspace-ihm_ci\netflix-eureka-naming-server"/>
+			<item value="C:\Users\IBM_ADMIN\Documents\___IBM\_Workspaces\eclipse-workspace-ihm_ci\currency-calcul-service"/>
+			<item value="C:\Users\IBM_ADMIN\Documents\__IBM\_Workspaces\eclipse-workspace-ihm_ci\currency-exchange-service"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

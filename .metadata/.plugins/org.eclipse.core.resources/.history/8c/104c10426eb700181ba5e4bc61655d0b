@@ -1,0 +1,8 @@
+package ihm.ci.test.cloud.microservices.currencycalculservice.proxy;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name="currency-exchange-service", url="localhost:8000")
+public class CurrencyExchangeServiceProxy {
+
+}

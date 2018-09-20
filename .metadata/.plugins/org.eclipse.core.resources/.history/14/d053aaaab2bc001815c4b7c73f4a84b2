@@ -1,0 +1,4 @@
+service-one.max=7877
+service-one.min=7
+eureka.client.server-url.default-zone=http://localhost:8761/eureka/
+management.security.enabled=false

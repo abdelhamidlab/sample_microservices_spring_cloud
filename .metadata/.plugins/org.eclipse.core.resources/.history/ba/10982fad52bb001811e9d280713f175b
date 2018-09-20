@@ -1,0 +1,6 @@
+service-one.max=7777
+service-one.min=777
+eureka.client.server-url.default-zone=http://localhost:8761/eureka/
+management.endpoints.web.exposure.include=*
+spring.cloud.bus.enabled=true
+management.endpoints.spring.cloud.bus.refresh.enabled=true

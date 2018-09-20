@@ -1,0 +1,30 @@
+package ihm.ci.test.cloud.microservices.currencycalculservice.controller;
+
+import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import ihm.ci.test.cloud.microservices.currencycalculservice.controller.bean.ExchangeCalcul;
+
+@RestController
+public class ExchangeCalculController {
+
+	@GetMapping("/currency-calcul/from/{from}/to/{to}/quantity/{quantity}")
+	public ExchangeCalcul returnCalculResult(@PathVariable String from,
+			@PathVariable String to,
+			@PathVariable BigDecimal quantity) {
+		
+		Map<String, String> uriVars = new HashMap<>();
+		uriVars.put("from", from);
+		uriVars.put("to", to);
+		new RestTemplate().getForEntity("http://localhost:8000/currency-exchange/from/{from}/to/{to}", ExchangeCalcul.class, uriVars);
+		
+		return new ExchangeCalcul(1L, from, to, BigDecimal.ONE, quantity, quantity, 8100);
+		
+	}
+}
